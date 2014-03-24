@@ -1,0 +1,51 @@
+body {
+  font-family: 'Georgia', serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  color: #333;
+  text-rendering: optimizeLegibility;
+}
+
+b {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  color: rgb(6, 69, 173);
+}
+
+p {
+  margin: 1em 0;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 200%;
+  line-height: 100%;
+}
+
+.page-wrapper {
+  padding: 30px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+#output {
+  font-size: 20px;
+  line-height: 150%;
+}
