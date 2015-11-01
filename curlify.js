@@ -1,3 +1,5 @@
+'use strict';
+
 (function IIFE(global){
 
   function makeCurly(text) {
